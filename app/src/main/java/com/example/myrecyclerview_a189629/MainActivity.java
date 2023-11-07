@@ -35,20 +35,19 @@ public class MainActivity extends AppCompatActivity {
     private List<Beverage> getAllBeverageInfo(){
         List<Beverage> allBeverage = new ArrayList<Beverage>();
 
-        allBeverage.add(new Beverage("Flat White", R.drawable.flat_white));
-        allBeverage.add(new Beverage("Affogato", R.drawable.affogato_2));
-        allBeverage.add(new Beverage("Cappuccino", R.drawable.cappuccino_1));
-        allBeverage.add(new Beverage("Cappuccino", R.drawable.cappuccino_2));
-        allBeverage.add(new Beverage("Earl Grey", R.drawable.earl_grey));
-        allBeverage.add(new Beverage("Espresso", R.drawable.espresso_1));
-        allBeverage.add(new Beverage("Espresso", R.drawable.espresso_2));
-        allBeverage.add(new Beverage("Green Tea", R.drawable.green_tea));
-        allBeverage.add(new Beverage("Latte", R.drawable.latte_1));
-        allBeverage.add(new Beverage("Latte", R.drawable.latte_2));
-        allBeverage.add(new Beverage("Long Black", R.drawable.long_black));
-        allBeverage.add(new Beverage("Long Black", R.drawable.long_black_2));
-        allBeverage.add(new Beverage("Macchiato", R.drawable.macchiato));
-        allBeverage.add(new Beverage("Mochaccino", R.drawable.mochaccino));
+        allBeverage.add(new Beverage("Acacias", R.drawable.acacias));
+        allBeverage.add(new Beverage("Acanthus", R.drawable.acanthus));
+        allBeverage.add(new Beverage("Achillea", R.drawable.achillea));
+        allBeverage.add(new Beverage("Aconite", R.drawable.aconite));
+        allBeverage.add(new Beverage("Barberry", R.drawable.barberry));
+        allBeverage.add(new Beverage("Basil", R.drawable.basil));
+        allBeverage.add(new Beverage("Bindweed", R.drawable.bindweed));
+        allBeverage.add(new Beverage("Brittlebush", R.drawable.brittlebush));
+        allBeverage.add(new Beverage("Dahlia", R.drawable.dahlia));
+        allBeverage.add(new Beverage("Dandelion", R.drawable.dandelion));
+        allBeverage.add(new Beverage("Honeyflower", R.drawable.honeyflower));
+        allBeverage.add(new Beverage("Impomoea", R.drawable.ipomoea));
+        allBeverage.add(new Beverage("Japanese Morning Glory", R.drawable.japanesemorningglory));
 
         return allBeverage;
 

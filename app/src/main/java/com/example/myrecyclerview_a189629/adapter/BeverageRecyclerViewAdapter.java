@@ -69,7 +69,7 @@ public class BeverageRecyclerViewAdapter extends RecyclerView.Adapter<BeverageRe
 
         @Override
         public void onClick(View view) {
-            Toast.makeText(view.getContext(), "Beverage Name: " +  beverageList.get(getAdapterPosition()).getName(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(view.getContext(), "Flower Name: " +  beverageList.get(getAdapterPosition()).getName(), Toast.LENGTH_SHORT).show();
 
             Intent intent = new Intent(view.getContext(), BeverageDetailActivity.class);
             intent.putExtra("beverageName", beverageList.get(getAdapterPosition()).getName());
