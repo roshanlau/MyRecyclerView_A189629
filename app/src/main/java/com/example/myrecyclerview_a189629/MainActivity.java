@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.example.myrecyclerview_a189629.adapter.BeverageRecyclerViewAdapter;
+import com.example.myrecyclerview_a189629.adapter.FlowerRecyclerViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,31 +25,31 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutManager = new LinearLayoutManager(MainActivity.this);
         recyclerView.setLayoutManager(linearLayoutManager);
 
-        List<Beverage> allBeverageInfo = getAllBeverageInfo();
+        List<Flower> allFlowerInfo = getAllFlowerInfo();
 
-        BeverageRecyclerViewAdapter beverageRecyclerViewAdapter = new BeverageRecyclerViewAdapter(MainActivity.this, allBeverageInfo);
-        recyclerView.setAdapter(beverageRecyclerViewAdapter);
+        FlowerRecyclerViewAdapter flowerRecyclerViewAdapter = new FlowerRecyclerViewAdapter(MainActivity.this, allFlowerInfo);
+        recyclerView.setAdapter(flowerRecyclerViewAdapter);
 
     }
 
-    private List<Beverage> getAllBeverageInfo(){
-        List<Beverage> allBeverage = new ArrayList<Beverage>();
+    private List<Flower> getAllFlowerInfo(){
+        List<Flower> allFlower = new ArrayList<Flower>();
 
-        allBeverage.add(new Beverage("Acacias", R.drawable.acacias));
-        allBeverage.add(new Beverage("Acanthus", R.drawable.acanthus));
-        allBeverage.add(new Beverage("Achillea", R.drawable.achillea));
-        allBeverage.add(new Beverage("Aconite", R.drawable.aconite));
-        allBeverage.add(new Beverage("Barberry", R.drawable.barberry));
-        allBeverage.add(new Beverage("Basil", R.drawable.basil));
-        allBeverage.add(new Beverage("Bindweed", R.drawable.bindweed));
-        allBeverage.add(new Beverage("Brittlebush", R.drawable.brittlebush));
-        allBeverage.add(new Beverage("Dahlia", R.drawable.dahlia));
-        allBeverage.add(new Beverage("Dandelion", R.drawable.dandelion));
-        allBeverage.add(new Beverage("Honeyflower", R.drawable.honeyflower));
-        allBeverage.add(new Beverage("Impomoea", R.drawable.ipomoea));
-        allBeverage.add(new Beverage("Japanese Morning Glory", R.drawable.japanesemorningglory));
+        allFlower.add(new Flower("Acacias", R.drawable.acacias));
+        allFlower.add(new Flower("Acanthus", R.drawable.acanthus));
+        allFlower.add(new Flower("Achillea", R.drawable.achillea));
+        allFlower.add(new Flower("Aconite", R.drawable.aconite));
+        allFlower.add(new Flower("Barberry", R.drawable.barberry));
+        allFlower.add(new Flower("Basil", R.drawable.basil));
+        allFlower.add(new Flower("Bindweed", R.drawable.bindweed));
+        allFlower.add(new Flower("Brittlebush", R.drawable.brittlebush));
+        allFlower.add(new Flower("Dahlia", R.drawable.dahlia));
+        allFlower.add(new Flower("Dandelion", R.drawable.dandelion));
+        allFlower.add(new Flower("Honeyflower", R.drawable.honeyflower));
+        allFlower.add(new Flower("Impomoea", R.drawable.ipomoea));
+        allFlower.add(new Flower("Japanese Morning Glory", R.drawable.japanesemorningglory));
 
-        return allBeverage;
+        return allFlower;
 
     }
 }

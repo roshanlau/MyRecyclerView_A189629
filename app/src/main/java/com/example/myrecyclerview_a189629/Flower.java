@@ -1,10 +1,10 @@
 package com.example.myrecyclerview_a189629;
 
-public class Beverage {
+public class Flower {
     String name;
     int image;
 
-    public Beverage(String name, int image) {
+    public Flower(String name, int image) {
         this.name = name;
         this.image = image;
     }

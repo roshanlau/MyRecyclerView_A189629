@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class BeverageDetailActivity extends AppCompatActivity {
+public class FlowerDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beverage_detail);
+        setContentView(R.layout.activity_flower_detail);
 
         Intent intent = getIntent();
 
-        TextView tvName = findViewById(R.id.tv_beverageName_detailActivity);
-        tvName.setText(intent.getStringExtra("beverageName"));
+        TextView tvName = findViewById(R.id.tv_flowerName_detailActivity);
+        tvName.setText(intent.getStringExtra("flowerName"));
     }
 }
