@@ -33,7 +33,7 @@
             android:id="@+id/tv_flowerName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#96000000"
+            android:background="#96ffffff"
             android:text="TextView"
             android:textSize="30sp"
             android:textStyle="bold"
